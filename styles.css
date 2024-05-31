@@ -26,8 +26,18 @@ main {
     align-items: center;
     padding: 10px;
     margin: 10px;
+
+    & div.img-container {
+        width: 100%;
+
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
     & h2 {
-        font-size: 14pt;
+        font-size: 1.5rem;
         font-weight: normal;
     }
 }
